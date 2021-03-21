@@ -1,0 +1,6 @@
+{
+    "PORT": 5000,
+    "jwtSecret": "Kisrev Pasha Mern Test",
+    "mongoDataBaseUri": "mongodb+srv://Pasha:q18071807q@mern-test-cluster.h8eba.mongodb.net/mern-test?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000/"
+}

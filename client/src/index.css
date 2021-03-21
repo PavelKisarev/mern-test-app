@@ -1,0 +1,43 @@
+@import url("~materialize-css/dist/css/materialize.min.css");
+
+ /* label color */
+.input-field label {
+    color: #fff !important;
+}
+  /* label focus color */
+.input-field input:focus + label {
+    color: #fff !important;
+}
+  /* label underline focus color */
+.input-field input{
+    border-bottom: 1px solid #fff !important;
+}
+.input-field input:focus {
+    box-shadow: 0 2px 0 0 #fff !important;
+}
+
+
+.set-btn-pos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.set-btn-pos > .btn{
+    flex: 1 1 100%;
+}
+
+.nav-wrapper{
+    padding: 0 32px;
+}
+
+
+.create-page {
+    margin-top: 30px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress.loader {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
